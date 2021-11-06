@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace CleanerLibrary
 {
-    public class RobotCleaner
+    public class RobotCleaner: IRobotCleaner
     {
         private State _state {get;set;}
 
