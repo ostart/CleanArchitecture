@@ -5,38 +5,41 @@ namespace FunctionalDependencyInjection
 {
     public class ApiClass
     {
-        private StatelessRobotCleaner _robot = new StatelessRobotCleaner();
-        private State _robotState = new State();
+        private readonly StatelessRobotCleaner _robot;
+        private readonly State _robotState;
 
-        private void TransferToCleaner(string message)
+        private readonly Action<string> _transferToCleaner;
+
+        public ApiClass(StatelessRobotCleaner robot, State robotState, Action<string> transferToCleaner)
         {
-            Console.WriteLine(message);
+            _robot = robot;
+            _robotState = robotState;
+            _transferToCleaner = transferToCleaner;
         }
 
-        public void Move(int meters, State state, Action<string> transferDelegate, Action<int, State, Action<string>> moveFunction)
+        public void Move(int meters)
         {
-            moveFunction(meters, state, transferDelegate);
+            _robot.Move(meters, _robotState, _transferToCleaner);
         }
 
-        public void Turn(int angleDegrees, State state, Action<string> transferDelegate, Action<int, State, Action<string>> turnFunction)
+        public void Turn(int angleDegrees)
         {
-            turnFunction(angleDegrees, state, transferDelegate);
+            _robot.Turn(angleDegrees, _robotState, _transferToCleaner);
         }
 
-        public void Set(Tools tool, State state, Action<string> transferDelegate, Action<Tools, State, Action<string>> setFunction)
+        public void Set(Tools tool)
         {
-            setFunction(tool, state, transferDelegate);
+            _robot.Set(tool, _robotState, _transferToCleaner);
         } 
         
-        public void Start(State state, Action<string> transferDelegate, Action<State, Action<string>> startFunction)
+        public void Start()
         {
-            startFunction(state, transferDelegate);
+            _robot.Start(_robotState, _transferToCleaner);
         }
         
-        public void Stop(Action<string> transferDelegate, Action<Action<string>> stopFunction)
+        public void Stop()
         {
-            stopFunction(transferDelegate);
+            _robot.Stop(_transferToCleaner);
         }
-
     }
 }
