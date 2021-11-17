@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatelessCleanerLibrary", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalDependencyInjection", "FunctionalDependencyInjection\FunctionalDependencyInjection.csproj", "{10B3F6C5-5A06-404B-B08C-6DE88948FCD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenativeStyle", "ConcatenativeStyle\ConcatenativeStyle.csproj", "{23C82B3D-E716-43C8-B3A9-136D924AA93A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{10B3F6C5-5A06-404B-B08C-6DE88948FCD1}.Release|x64.Build.0 = Release|Any CPU
 		{10B3F6C5-5A06-404B-B08C-6DE88948FCD1}.Release|x86.ActiveCfg = Release|Any CPU
 		{10B3F6C5-5A06-404B-B08C-6DE88948FCD1}.Release|x86.Build.0 = Release|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Debug|x64.Build.0 = Debug|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Debug|x86.Build.0 = Debug|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Release|x64.ActiveCfg = Release|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Release|x64.Build.0 = Release|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Release|x86.ActiveCfg = Release|Any CPU
+		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
