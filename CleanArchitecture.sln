@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalDependencyInjecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcatenativeStyle", "ConcatenativeStyle\ConcatenativeStyle.csproj", "{23C82B3D-E716-43C8-B3A9-136D924AA93A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonadicState", "MonadicState\MonadicState.csproj", "{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,5 +88,17 @@ Global
 		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Release|x64.Build.0 = Release|Any CPU
 		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Release|x86.ActiveCfg = Release|Any CPU
 		{23C82B3D-E716-43C8-B3A9-136D924AA93A}.Release|x86.Build.0 = Release|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Debug|x64.Build.0 = Debug|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Debug|x86.Build.0 = Debug|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Release|x64.ActiveCfg = Release|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Release|x64.Build.0 = Release|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Release|x86.ActiveCfg = Release|Any CPU
+		{C678A6D6-1113-4B45-86E7-5C0A19A8AA17}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
